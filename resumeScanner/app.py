@@ -1,5 +1,5 @@
 import streamlit as st
-from resume_processor import load_resume, analyze_resume, store_to_vectorstore, run_self_query
+from resumeProcessor import load_resume, analyze_resume, store_to_vectorstore, run_self_query
 import os
 
 st.set_page_config(page_title="AI Resume Analyzer", page_icon=":briefcase:")
